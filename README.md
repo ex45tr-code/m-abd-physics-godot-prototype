@@ -25,12 +25,14 @@ This was tested on godot 4.5.2 & godot-cpp 4.5-stable & windows 10 64bit.
   import "demo/mabd-physics-test" project and change your physics engine to M-ABD.
 
 foder structure:
-godot-exe ┬ demo ┬ bin (should be generated after build is finished)
-          │      └ mabd-physics-test
-          ├ SConstruct
-          ├ build_physics.bat
-          ├ godot-cpp
-          └ src
+godot-exe
+├── demo
+│   ├── bin                  (generated after build)
+│   └── mabd-physics-test
+├── SConstruct
+├── build_physics.bat
+├── godot-cpp
+└── src
 
 ### Status
 Experimental work-in-progress.
