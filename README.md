@@ -27,4 +27,7 @@ Apache License 2.0
 ### Support Development
 If you find this project useful, consider supporting its continued development.
 Contributions and donations help fund additional implementation work, testing, documentation, and future features.
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=for-the-badge&logo=paypal)]([https://www.paypal.com/ncp/payment/xxxxxxxx](https://www.paypal.com/ncp/payment/6WVHQWKECPCTL))
+
+$5[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=for-the-badge&logo=paypal)](https://www.paypal.com/ncp/payment/6WVHQWKECPCTL)
+$50 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=for-the-badge&logo=paypal)](https://www.paypal.com/ncp/payment/6WVHQWKECPCTL)
+freeamount [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?style=for-the-badge&logo=paypal)](https://www.paypal.com/ncp/payment/KAVD6P66NVASC)
