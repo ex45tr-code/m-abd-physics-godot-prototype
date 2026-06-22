@@ -1,0 +1,1 @@
+scons platform=windows target=template_debug arch=x86_64
