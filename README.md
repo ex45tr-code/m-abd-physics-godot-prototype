@@ -11,11 +11,34 @@ https://arxiv.org/abs/2603.08079
 This project explores the implementation of concepts presented in the M-ABD paper using the Godot Engine using claude sonnet 4.6
 The goal is to study and reproduce parts of the proposed simulation framework in a practical real-time environment.
 
+### environment
+This was tested on godot 4.5.2 & godot-cpp 4.5-stable & windows 10 64bit.
+
+### setup
+1. download godot engine 4.5.2: https://godotengine.org/download/archive/4.5.2-stable/
+2. clone this project inside your downloaded godot engine. 
+3. download godot-cpp from https://github.com/godotengine/godot-cpp and put it inside your godot exe folder.
+   and type "git checkout godot-4.5-stable"
+4. run build_physics.bat
+5. after build is finished, run godot 4.5.2 exe and 
+  import "demo/mabd-physics-test" project and change your physics engine to M-ABD.
+
+foder structure:
+godot-exe ┬ demo ┬ bin (should be generated after build is finished)
+          │      └ mabd-physics-test
+          ├ SConstruct
+          ├ build_physics.bat
+          ├ godot-cpp
+          └ src
+
 ### Status
 Experimental work-in-progress.
 A substantial portion of the M-ABD framework has been implemented, while several components described in the paper remain unfinished.
-Development is ongoing, and additional features may be added in future updates if donation is fullfilled.
+Development is ongoing, and additional features may be added in future updates if several donation is fullfilled.
 This repository should not currently be considered a complete or reference implementation of the paper.
+There are huge amount of Korean language comment because I need to develop this code with Korean comments. 
+Also this physics code will generate huge amount of debugging message because currently this project is in progress. 
+if you want to remove this, clear UtilityFunctions::print(...) for now.
 
 ### Attribution
 All credit for the original research belongs to the paper authors.
