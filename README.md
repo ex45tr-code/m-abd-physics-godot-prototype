@@ -24,7 +24,7 @@ This was tested on godot 4.5.2 & godot-cpp 4.5-stable & windows 10 64bit.
 5. After build is finished, run godot 4.5.2 exe and 
   import "demo/mabd-physics-test" project and change your physics engine to M-ABD.
 
-foder structure:
+folder structure:
 ```text
 godot-exe
 ├── demo
@@ -49,6 +49,7 @@ if you want to remove this, clear UtilityFunctions::print(...) for now.
 All credit for the original research belongs to the paper authors.
 Please refer to the original paper for the complete methodology and theoretical background.
 
+### Citation
 ```bibtex
 @misc{he2026mabdscalableefficientrobust,
       title={M-ABD: Scalable, Efficient, and Robust Multi-Affine-Body Dynamics}, 
@@ -57,7 +58,7 @@ Please refer to the original paper for the complete methodology and theoretical 
       eprint={2603.08079},
       archivePrefix={arXiv},
       primaryClass={cs.GR},
-      url={https://arxiv.org/abs/2603.08079}, 
+      url={https://arxiv.org/abs/2603.08079}
 }
 ```
 
